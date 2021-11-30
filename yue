@@ -1,0 +1,25 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+   cout << "\t Tabel Perkalian 0-9 \n\n";
+
+   for (int i = 0; i<= 9; i++)
+ {
+
+
+       for (int j = 0; j <= 9; j++)
+
+       {
+           cout <<" " << i * j<< "\t";
+
+       }
+
+        cout <<endl <<endl;
+
+ }
+}
+
+
